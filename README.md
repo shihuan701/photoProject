@@ -1,1 +1,1 @@
-The project uses selenium&testng to test NetEase Project
+The project uses selenium&testng to test NetEase Album
