@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+  <test verbose="2" name="Default test">
+    <parameter name="sourcetitle" value="3" />
+    <parameter name="targettitle" value="看见" />
+    <classes>
+      <class name="com.photo.testng.DownLoadTest"/>
+      <class name="com.photo.testng.CommentTest"/>
+      <class name="com.photo.testng.AlertTest"/>
+      <class name="com.photo.testng.DragTest"/>
+      <class name="com.photo.testng.DeleteTest"/>
+    </classes>
+  </test>
+</suite>
